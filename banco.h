@@ -25,5 +25,9 @@ int login(char nome[], char senha[]);
 void depositar(int idUsuario, float valor);
 int sacar(int idUsuario, float valor);
 int transferir(int idOrigem, int idDestino, float valor);
+int validarSenhaForte(char senha[]);
+void limparBuffer();
+void removerNovaLinha(char string[]);
+
 
 #endif
